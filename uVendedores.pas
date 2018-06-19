@@ -317,7 +317,7 @@ begin
    query.SQL.Add('select * from contas_banco where origem=''VD'' and codigo_entidade='''+Table1.FieldByName('CODIGO_VENDEDOR').AsString+''' ');
    query.Prepare;
    query.Open;
-
+    //teste
    if not query.Eof then
    begin
       query.First;
